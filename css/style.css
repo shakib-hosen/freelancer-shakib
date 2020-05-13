@@ -1,0 +1,152 @@
+
+html ,body{
+    scroll-behavior: smooth;
+}
+.mybackgimng {
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+/*navbar strat*/
+body
+{
+    font-family: sans-serif;
+}
+.ml-50
+{
+    margin-left: 30%;
+}
+li.nav-item {
+    padding: 0px 25px;
+}
+a.btncv {
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.btncv:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+/*navbar end*/
+
+/* text slider css strat*/
+
+
+a.typewrite
+{   color:white; 
+    text-decoration: none;
+}
+/* text slider css end*/
+
+/*About strat*/
+.social-icon i {
+    border: 2px solid #909090;
+    padding: 8px 18px;
+    border-radius: 50%;
+    color: #a99a9a;
+}
+.social-icon i:hover {
+    color: red;
+    border: 2px solid red;
+    transition: 0.9s;
+}
+/*About end*/
+
+/*sevices section strat*/
+
+section.backgroudcolor {
+    background: #f3f1f159;
+}
+.serice-box {
+    border: 2px solid #efe9e9;
+    padding: 12px;
+    border-radius: 10px;
+    color: #0e0aff;
+}
+.serice-box:hover {
+    border: 2px solid red;
+    transition: 0.9s;
+    color: red;
+}
+/*sevices section end*/
+
+/*sevices section 2 strat*/
+
+.backgroudcolor2 {
+    background-color: #f1f1f1ba;
+}
+/*Sevices seciton 2 end*/
+
+/*Blog section strat*/
+.blog-box img {
+    width: 96%;
+    border-radius: 12px;
+}
+a.readmore {
+    text-decoration: none;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+a.readmore:hover {
+    border-bottom: 1px solid #b5b4b4;
+}
+/*Blog section end*/
+/*Contact section strat*/
+
+input.form-control {
+    border: 2px solid #c7c4c4;
+    padding: 25px;
+}
+textarea.form-control {
+    border: 2px solid #c7c4c4;
+    padding: 30px;
+}
+/*Contact section end*/
+
+/* Footer section strat*/
+
+section.footercolor {
+    background: #000000b3;
+}
+.up i {
+    background: red;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: white;
+}
+.up {
+    position: fixed;
+    bottom: 15px;
+    height: 35px;
+    right: 20px;
+    transition: all 0.5s;
+     }
+/*footer section end*/
+
+/*navbar js strat*/
+nav.navbar.navbar-expand-lg.navbar-light.pt-3 {
+    color: white;
+}
+nav.navbar.navbar-expand-lg.navbar-light.pt-3.black {
+    background: #8dbfa8;
+}
+a.nav-link.h6.font-weight-bold {
+    color: white;
+}
+a.nav-link.h6.font-weight-bold.black1 {
+    color: black;
+}
+h4.font-weight-bold.ml-5.black2 {
+    color: black;
+}
+a.nav-link.h6.font-weight-bold:hover {
+    color: #00e45b;
+}
